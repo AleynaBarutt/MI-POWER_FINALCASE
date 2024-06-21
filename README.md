@@ -1,86 +1,88 @@
 ## Water Quality Analysis
 
-https://github.com/Buse-ng/MiPowerProject/assets/69714956/454732ce-a9be-487b-af52-dd272732ccad
 
-## Motivation and Background
-The analysis of the impact of water quality on potability holds significant real-world importance. Water is a fundamental resource essential for human health. However, the potability of water depends on its safety and suitability for drinking purposes.
+## Motivasyon ve Arka Plan
+Su kalitesinin içilebilirliğe etkisinin analizi, gerçek dünyada önemli bir öneme sahiptir. Su, insan sağlığı için temel bir kaynaktır. Ancak suyun içilebilirliği, güvenliği ve içme amaçlarına uygunluğuna bağlıdır.
 
-Through this analysis, it becomes possible to understand and evaluate the factors affecting the potability of water. For example, the effects of water properties such as pH value, hardness level, and chemical composition on potability can be examined. This information provides crucial data for improving water resource management and water supply processes.
+Bu analiz aracılığıyla, su kalitesini etkileyen faktörleri anlamak ve değerlendirmek mümkün hale gelir. Örneğin, pH değeri, sertlik seviyesi ve kimyasal bileşim gibi su özelliklerinin içilebilirliğe etkileri incelenebilir. Bu bilgi, su kaynakları yönetimi ve su temin süreçlerinin iyileştirilmesi için kritik veriler sağlar.
 
-Additionally, determining the pollution levels of water sources and assessing their compliance with potability standards is important for health institutions, organizations responsible for water supply, and decision-makers. Being informed about the potability status of water sources allows for the implementation of measures to minimize health risks and protect public health.
+Ayrıca, su kaynaklarının kirlilik seviyelerinin belirlenmesi ve içilebilirlik standartlarına uyumunun değerlendirilmesi, sağlık kurumları, su temininden sorumlu organizasyonlar ve karar vericiler için önemlidir. Su kaynaklarının içilebilirlik durumu hakkında bilgi sahibi olmak, sağlık risklerini en aza indirmek ve halk sağlığını korumak için önlemler alınmasına olanak tanır.
 
-In conclusion, evaluating the impact of water quality on potability offers valuable insights into the protection of water resources, the safety of water supply, and the maintenance of health standards. This analysis supports the sustainable use of water resources, yielding positive effects on human health and the environment.
+Sonuç olarak, su kalitesinin içilebilirliğe etkisinin değerlendirilmesi, su kaynaklarının korunması, su temininin güvenliği ve sağlık standartlarının sürdürülmesi konusunda değerli bilgiler sunar. Bu analiz, su kaynaklarının sürdürülebilir kullanımını destekleyerek insan sağlığı ve çevre üzerinde olumlu etkiler yaratır.
 
-## Dataset Information
-This dataset is a water quality analysis dataset that includes characteristics of water quality and potability status. Below are some details about the dataset:
+## Veri Kümesi Bilgileri
 
-- The dataset comprises a total of 3,276 observations and 10 variables.
-- The variables include physical and chemical properties of water such as pH value, hardness level, chloride, sulfate, and temperature.
-- The potability status represents the drinkability of the water. A potability value of 1 indicates that the water is drinkable, while a value of 0 indicates that the water is not drinkable. Therefore, there are 2 classes (Drinkable: 1 and Not Drinkable: 0).
-- There are missing values in some variables in the dataset. These missing values need to be taken into account when performing analysis.
-- Statistical analyses, visualizations, and machine learning algorithms can be applied to the dataset to examine the relationships and effects of water quality on potability status.
+Bu veri kümesi, su kalitesi ve içilebilirlik durumu ile ilgili özellikleri içeren bir su kalitesi analiz veri kümesidir. Veri kümesi ile ilgili bazı detaylar aşağıda verilmiştir:
 
-This dataset can be used to understand the potability status of water sources, improve water quality, and take measures for drinking water safety. Analyses performed on this dataset can play a crucial role in the management of water resources, optimization of water supply processes, and provision of safe drinking water.
+Veri kümesi toplamda 3.276 gözlem ve 10 değişken içermektedir.
+Değişkenler arasında pH değeri, sertlik seviyesi, klorür, sülfat ve sıcaklık gibi suyun fiziksel ve kimyasal özellikleri bulunmaktadır.
+İçilebilirlik durumu, suyun içilebilirliğini temsil eder. İçilebilirlik değeri 1 olan su içilebilir, 0 olan su ise içilemez olarak kabul edilir. Bu nedenle, iki sınıf vardır (İçilebilir: 1 ve İçilemez: 0).
+Veri kümesinde bazı değişkenlerde eksik değerler bulunmaktadır. Bu eksik değerler analiz yapılırken dikkate alınmalıdır.
+Su kalitesinin içilebilirlik durumuna etkilerini ve ilişkilerini incelemek için istatistiksel analizler, görselleştirmeler ve makine öğrenimi algoritmaları uygulanabilir.
+Bu veri kümesi, su kaynaklarının içilebilirlik durumunu anlamak, su kalitesini iyileştirmek ve içme suyu güvenliği için önlemler almak amacıyla kullanılabilir. Bu veri kümesi üzerinde yapılan analizler, su kaynaklarının yönetimi, su temin süreçlerinin optimizasyonu ve güvenli içme suyu sağlanmasında önemli bir rol oynayabilir.
 
-The dataset contains 491 missing values in the pH column, 781 in the sulfate column, and 162 in the trihalomethanes column. In total, there are 1,434 missing values.
+Veri kümesinde pH sütununda 491 eksik değer, sülfat sütununda 781 ve trihalometanlar sütununda 162 eksik değer bulunmaktadır. Toplamda 1.434 eksik değer mevcuttur.
 
 **Data Set:** [Water Potability Dataset on Kaggle](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
 
-## Algorithms Used
-- Logistic Regression
-- Support Vector Machines (SVM Classification)
-- Random Forest
+
+## Kullanılan Algoritmalar
+- Lojistik Regresyon
+- Destek Vektör Makineleri (SVM Sınıflandırma)
+- Rastgele Orman
 - AdaBoost
 - XGBoost
 - CatBoost
 - LightGBM
 
-## Libraries Used
-The libraries used include Flask, Pandas, NumPy, Matplotlib, and Plotly. The code creates a Flask application and performs data analysis tasks.
+## Kullanılan Kütüphaneler
+Kullanılan kütüphaneler arasında Flask, Pandas, NumPy, Matplotlib ve Plotly bulunmaktadır. Kod, bir Flask uygulaması oluşturur ve veri analizi görevlerini yerine getirir.
 
-## Data Analysis Steps
-The data analysis steps include:
-- Data loading
-- Generating summary statistics
-- Missing data analysis
-- Outlier detection
-- Data visualization
+## Veri Analizi Adımları
+Veri analizi adımları şunlardır:
 
-## Algorithm Performance
-- Logistic Regression: 63.1% accuracy
-- SVC: 63.3% accuracy
-- Random Forest: 76.3% accuracy
-- AdaBoost: 75.9% 
-- XGBoost: 76.9% 
-- CatBoost: 77.7% 
-- LightGBM: 77.8% 
+- Veri yükleme
+- Özet istatistiklerin oluşturulması
+- Eksik veri analizi
+- Aykırı değer tespiti
+- Veri görselleştirme
 
-## Train and Test: (overfit)
-- LightGBM Accuracy: 77.8% 
-- LightGBM Train Accuracy: 99.4%
+## Algoritma Performansı
+- Lojistik Regresyon: %63.1 doğruluk
+- SVC: %63.3 doğruluk
+- Rastgele Orman: %76.3 doğruluk
+- AdaBoost: %75.9 doğruluk
+- XGBoost: %76.9 doğruluk
+- CatBoost: %77.7 doğruluk
+- LightGBM: %77.8 doğruluk
 
-- Random Forest Accuracy: 76.3% 
-- Random Forest Train Accuracy: 100%
+## Eğitim ve Test: (overfit)
 
-- CatBoost Accuracy: 77.7% 
-- CatBoost Train Accuracy: 94.8%
+- LightGBM Doğruluk: %77.8
+- LightGBM Eğitim Doğruluğu: %99.4
 
-## Parameter Optimization:
-- XGBoost: Best Score: 79.4% 
-- LightGBM: Best Score: 79.5% 
-- CatBoost: Best Score: 80.1%
-- Random Forest: 80.4% 
+- Rastgele Orman Doğruluk: %76.3
+- Rastgele Orman Eğitim Doğruluğu: %100
 
-## Algorithm Performance (After the changes(outliers, missing data, categorization))
-- Logistic Regression: 57.7% 
-- SVC: 57.7% 
-- Random Forest: 69.5% 
-- XGBoost: 66.2%
-- LightGBM: 69.1%
-- CatBoost : 72.6%
-- AdaBoost: 58.0%
+- CatBoost Doğruluk: %77.7
+- CatBoost Eğitim Doğruluğu: %94.8
 
-## Prediction
-The web application provides users with the ability to make predictions. The prediction results are presented to the user. When tested with sample inputs from the dataset, the prediction results are accurate. This demonstrates that the model can produce correct results with sample inputs from the dataset.
+## Parametre Optimizasyonu 
 
-![pred](https://github.com/Buse-ng/MiPowerProject/assets/69714956/853c5d5e-a938-4f6b-929f-fe1fcdddf47f)
+- XGBoost: En İyi Skor: %79.4
+- LightGBM: En İyi Skor: %79.5
+- CatBoost: En İyi Skor: %80.1
+- Rastgele Orman: %80.4
+
+## Algoritma Performansı (Değişikliklerden sonra (aykırı değerler, eksik veriler, kategorilendirme))
+
+- Lojistik Regresyon: %57.7
+- SVC: %57.7
+- Rastgele Orman: %69.5
+- XGBoost: %66.2
+- LightGBM: %69.1
+- CatBoost: %72.6
+- AdaBoost: %58.0
+
+## Tahmin
+Web uygulaması kullanıcılara tahmin yapma olanağı sağlar. Tahmin sonuçları kullanıcıya sunulur. Veri kümesinden alınan örnek girdilerle test edildiğinde, tahmin sonuçları doğru çıkmaktadır. Bu, modelin veri kümesinden örnek girdilerle doğru sonuçlar üretebildiğini gösterir.
