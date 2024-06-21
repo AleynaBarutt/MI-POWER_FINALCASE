@@ -1,6 +1,7 @@
 ## Water Quality Analysis
 
 
+
 ## Motivasyon ve Arka Plan
 Su kalitesinin içilebilirliğe etkisinin analizi, gerçek dünyada önemli bir öneme sahiptir. Su, insan sağlığı için temel bir kaynaktır. Ancak suyun içilebilirliği, güvenliği ve içme amaçlarına uygunluğuna bağlıdır.
 
@@ -27,9 +28,9 @@ Veri kümesinde pH sütununda 491 eksik değer, sülfat sütununda 781 ve trihal
 
 
 ## Kullanılan Algoritmalar
-- Lojistik Regresyon
-- Destek Vektör Makineleri (SVM Sınıflandırma)
-- Rastgele Orman
+- Logistic Regression
+- Support Vector Machines (SVM Sınıflandırma)
+- Random Forest
 - AdaBoost
 - XGBoost
 - CatBoost
@@ -48,9 +49,10 @@ Veri analizi adımları şunlardır:
 - Veri görselleştirme
 
 ## Algoritma Performansı
-- Lojistik Regresyon: %63.1 doğruluk
+
+- Logistic Regression: %63.1 doğruluk
 - SVC: %63.3 doğruluk
-- Rastgele Orman: %76.3 doğruluk
+- Random Forest: %76.3 doğruluk
 - AdaBoost: %75.9 doğruluk
 - XGBoost: %76.9 doğruluk
 - CatBoost: %77.7 doğruluk
@@ -61,8 +63,8 @@ Veri analizi adımları şunlardır:
 - LightGBM Doğruluk: %77.8
 - LightGBM Eğitim Doğruluğu: %99.4
 
-- Rastgele Orman Doğruluk: %76.3
-- Rastgele Orman Eğitim Doğruluğu: %100
+- Random Forest Doğruluk: %76.3
+- Random Forest Eğitim Doğruluğu: %100
 
 - CatBoost Doğruluk: %77.7
 - CatBoost Eğitim Doğruluğu: %94.8
@@ -72,13 +74,13 @@ Veri analizi adımları şunlardır:
 - XGBoost: En İyi Skor: %79.4
 - LightGBM: En İyi Skor: %79.5
 - CatBoost: En İyi Skor: %80.1
-- Rastgele Orman: %80.4
+- Random Forest: %80.4
 
 ## Algoritma Performansı (Değişikliklerden sonra (aykırı değerler, eksik veriler, kategorilendirme))
 
-- Lojistik Regresyon: %57.7
+- Logistic Regression: %57.7
 - SVC: %57.7
-- Rastgele Orman: %69.5
+- Random Forest: %69.5
 - XGBoost: %66.2
 - LightGBM: %69.1
 - CatBoost: %72.6
