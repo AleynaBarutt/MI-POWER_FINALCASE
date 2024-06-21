@@ -89,3 +89,5 @@ Veri analizi adımları şunlardır:
 
 ## Tahmin
 Web uygulaması kullanıcılara tahmin yapma olanağı sağlar. Tahmin sonuçları kullanıcıya sunulur. Veri kümesinden alınan örnek girdilerle test edildiğinde, tahmin sonuçları doğru çıkmaktadır. Bu, modelin veri kümesinden örnek girdilerle doğru sonuçlar üretebildiğini gösterir.
+
+![2](https://github.com/AleynaBarutt/MI-POWER_FINALCASE/assets/63070084/5dccbdf5-f978-4757-b3ba-123604f4316c)
