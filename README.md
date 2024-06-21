@@ -1,5 +1,6 @@
 ## Water Quality Analysis
 
+![1](https://github.com/AleynaBarutt/MI-POWER_FINALCASE/assets/63070084/6a449d4a-e3d7-43a3-9c66-9fa77d344afe)
 
 
 ## Motivasyon ve Arka Plan
